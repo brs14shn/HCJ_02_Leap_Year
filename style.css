@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Kalam', cursive;
+    background: url(./İMAGES/ian-stauffer-uftqFbfWGFY-unsplash.jpg) no-repeat center center fixed;
+    background-size:cover;
+  
+    
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.JS{
+    display: flex;
+    margin-top:20px;
+    font-size: 20px;
+}
+.JS div img{
+    padding-right:20px;
+}
+.github{
+    display: flex;
+    margin-top:20px;
+    font-size: 20px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    flex-direction: column;
+    height: 50%;   
+    transform: translateY(-140px);
+    color: white;
+    text-align: center;
+}
+.content h1{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.content p{
+    font-size: 20px;
+    word-wrap: normal;
+    width:70%;
+}
+.content .input{
+    margin-top:15px;
+}
+.content .input input{
+    width: 100px;
+    border-radius: 10px;;
+    padding-left:5px ;
+    height: 30px;
+    border: none;
+    background-color: inherit;
+    outline: 2px solid white;
+    opacity: .8;
+   
+}
+.content .input input::placeholder{
+    color: white;
+
+}
+#year{
+    color: white;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    height: 85vh;
+
+}
+
+footer{
+    text-align: center;
+    color: white;
+}
+@media (max-height:480px){
+    .body{
+        display: flex;
+        flex-direction: column;
+    }
+    .top{
+        flex-direction: column;
+    }
+    .content{
+        margin-top:100px ;
+        text-align: center;
+    }
+}
